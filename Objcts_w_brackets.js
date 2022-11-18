@@ -32,7 +32,7 @@ const testObj = {
   "the drink": "water"
 };
 
-// Only change code below this line
-testObj["an entree"];   
-testObj["my side"];  
-testObj["the drink"];  
+// you still have to declare the constant to change the value in the other constant
+const entreeValue = testObj["an entree"];   // Change this line
+
+const drinkValue = testObj["the drink"];    // Change this line
